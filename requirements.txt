@@ -1,0 +1,12 @@
+# Saved outputs: Python 3.12, numpy 1.26.4, pandas 3.0.6, scikit-learn 1.9.1, torch 2.2.2, torchaudio 2.2.2,
+# torchvision 0.17.2, matplotlib 3.11.2.
+numpy
+pandas>=2.0
+scikit-learn>=1.3,<1.11   # 1.11 removes SVC(probability=True), used by the MFCC + SVM baseline (Section 4.1)
+matplotlib
+soundfile
+joblib
+torch
+torchaudio
+torchvision
+jupyter
